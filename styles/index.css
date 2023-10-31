@@ -1,0 +1,175 @@
+html, body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 115px;
+    height: 115px;
+    background-color: rgb(42, 44, 44);
+}
+
+.title{
+    margin-left: 30px;
+    font-size: 40px;
+    color: aliceblue;
+    transition: color 0.3s;
+}
+
+.title:hover{
+    color: rgb(65, 135, 135);
+}
+.pageLinkM{
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    font-size: 25px;
+    color: rgb(65, 135, 135);
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.pageLink{
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    font-size: 25px;
+    color: aliceblue;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.pageLink:hover{
+    color: rgb(65, 135, 135);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+}
+
+.fSection{
+    height: 50vh;
+    width: 50%;
+}
+
+.mTitle{
+    color: rgb(42, 44, 44);
+    font-size: 30px;
+}
+
+.mText{
+    text-align: justify;
+    color: rgb(42, 44, 44);
+    font-size: 20px;
+}
+
+.sub{
+    justify-content: space-around;
+}
+
+.email{
+    background-color: rgb(42, 44, 44);
+    width: 40%;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-right: 20px;
+    color: aliceblue;
+}
+
+.email:focus{
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.bSubscribe{
+    text-decoration: none;
+    border: none;
+    color: aliceblue;
+    background-color: rgb(42, 44, 44);
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition: color 0.3s;
+    transition: background-color 0.2s;
+    margin-inline: 10px;
+}
+
+.bSubscribe:hover{
+    color: rgb(198, 212, 225);
+}
+
+.bSubscribe:active{
+    background-color: rgba(42, 44, 44, 0.886);
+}
+
+.sSection{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+}
+
+.img1{
+    width: 85%;
+    height: auto;
+    margin-top: 24.9px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+footer{
+    color: rgb(198, 212, 225);
+    width: 100%;
+    text-align: center;
+    align-self: flex-end;
+    margin-bottom: 0px;
+    background-color: rgb(42, 44, 44);
+}
+
+.linkTec{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    color: aliceblue;
+    background-color: rgb(42, 44, 44);
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
